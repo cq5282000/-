@@ -8,7 +8,7 @@
 
 ```bash
 # Linux & Mac
-$ npm 
+$ ls -a
 ```
 
 ![image](https://github.com/cq5282000/git-online-repository-settings/blob/master/images/ls-a.png)
