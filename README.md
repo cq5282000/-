@@ -41,7 +41,8 @@ $  ssh-keygen -t rsa -C "youremail@example.com"
 
 ![image](https://github.com/cq5282000/git-online-repository-settings/blob/master/images/ssh_key.png)
 
-title里面的内容任意填写，在Key文本框里粘贴id_rsa.pub文件的内容，至此我们就可以向远程仓库提交代码了
+title里面的内容任意填写，在Key文本框里粘贴id_rsa.pub文件的内容，至此我们的电脑就可以向远程仓库提交代码了.
+
 
 
 
