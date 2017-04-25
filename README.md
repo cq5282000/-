@@ -43,7 +43,18 @@ $  ssh-keygen -t rsa -C "youremail@example.com"
 
 title里面的内容任意填写，在Key文本框里粘贴id_rsa.pub文件的内容，至此我们的电脑就可以向远程仓库提交代码了.
 
-## gitolite多项目的权限管理
+## git项目－脚手架的使用
 
+第一步在项目的同级目录下，意思是把脚手架复制到自己的项目下面
 
+```bash
+# Linux & Mac
+$  git clone git@xx.com:adp/react-starter.git ［自己的项目名称］
+```
 
+第二步是在项目里面，是修改远程分支的，因为上面复制下来的分支是react-starter的
+
+```bash
+# Linux & Mac
+$ git remote set-url origin [项目的远程仓库的路径]
+```
