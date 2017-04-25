@@ -11,6 +11,13 @@
 $ ls -a
 ```
 
+如果还是没有.ssh文件，则运行一下指令，一路回车即可
+
+```bash
+# Linux & Mac
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+
 ![image](https://github.com/cq5282000/git-online-repository-settings/blob/master/images/ls-a.png)
 
 然后进入.ssh文件
