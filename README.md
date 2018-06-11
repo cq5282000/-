@@ -38,6 +38,18 @@ $ cd .ssh
 $  ssh-keygen -t rsa -C "youremail@example.com"
 ```
 
+然后添加config文件配置
+
+```bash
+ Host github.com
+   # github用户名
+   User git
+   # 密钥名称
+   IdentityFile /Users/chenqu/.ssh/id_rsa
+   IdentitiesOnly yes
+```
+
+
 ## 登陆GitHub，设置SSH Keys
 
 点击账号的settings
